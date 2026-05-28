@@ -31,7 +31,7 @@ The weekly scorecard reads the last 7 days of snapshots to compute derived field
 - `successful_task_count` — not yet derivable; will populate once task outcome detection is built
 - `avg_input_tokens` / `avg_output_tokens` — requires per-message token breakdown; not in sessions.json today; future enhancement
 - `retry_count` / `loop_flag_count` — requires transcript parser; in progress
-- `quota_warning` — boolean; set true when cost velocity exceeds threshold (needs quota ceiling from Kate)
+- `quota_warning` — boolean; set true when cost velocity exceeds threshold (needs quota ceiling from [OPERATOR])
 - `notes` — free text; used for flags, anomalies, context on derived values
 
 ## Derived fields (computed at report time, not stored)
@@ -54,7 +54,7 @@ The weekly scorecard reads the last 7 days of snapshots to compute derived field
 | estimated_cost | ✅ Live |
 | max_context_seen | ✅ Live |
 | dominant_model | ✅ Live |
-| quota_warning | ✅ Live (threshold TBD — needs Kate's quota ceiling) |
+| quota_warning | ✅ Live (threshold TBD — needs [OPERATOR]'s quota ceiling) |
 | notes | ✅ Live |
 | avg_input_tokens / avg_output_tokens | 🔜 Needs transcript parser |
 | successful_task_count | 🔜 Needs task outcome detection |

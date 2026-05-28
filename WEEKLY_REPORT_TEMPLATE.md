@@ -31,7 +31,7 @@ Each report answers these 6 questions. Skip any section where the answer is "not
 - Expected to normalize — no alarm, just visibility
 
 ### 5. Highest-impact workflow changes for next week
-> If Kate changes one or two things, what saves the most tokens?
+> If [OPERATOR] changes one or two things, what saves the most tokens?
 - Specific and actionable
 - Ranked by estimated impact
 - No vague advice

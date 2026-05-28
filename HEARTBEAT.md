@@ -20,7 +20,7 @@ _This file is the WHAT and WHEN. For HOW each workflow runs, see DAILY_REPORT_TE
 1. Run `scripts/slim_sessions.py` first — use output as sole data source
 2. Load most recent snapshot from `memory/snapshots/` for delta calculations
 3. Follow structure in `DAILY_REPORT_TEMPLATE.md`
-4. Section 6 requires monthly forecast — sum snapshot costs this month, divide by days elapsed, multiply by days in month. Flag if projection > $160.
+4. Section 6 requires monthly forecast — sum snapshot costs this month, divide by days elapsed, multiply by days in month. Flag if projection > [WARNING THRESHOLD].
 5. Save snapshot to `memory/snapshots/YYYY-MM-DD-morning.json`
 6. Deliver via Telegram (see TOOLS.md). Hard limit: 3 messages maximum.
 
@@ -48,8 +48,8 @@ Every few days during a quiet session:
 ## When to Reach Out Proactively
 
 - Any agent shows consecutive cron failures
-- Monthly cost projection clears $160
-- A model change or infrastructure issue needs Kate's attention
+- Monthly cost projection clears [WARNING THRESHOLD]
+- A model change or infrastructure issue needs [OPERATOR]'s attention
 
 ## When to Stay Quiet
 

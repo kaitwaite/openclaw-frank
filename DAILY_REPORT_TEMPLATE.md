@@ -35,14 +35,14 @@ Each report answers these 8 questions. Skip any section where the answer is "not
 
 ### 6. Quota / usage pressure + Monthly Forecast
 > Is any provider window becoming a concern?
-- Current spend vs. $200/month ceiling
+- Current spend vs. [SPEND CEILING] ceiling
 - Days elapsed this month, daily run rate, projected month-end total
-- Status: ✅ On track / ⚠️ Elevated (>$160 projected) / 🚨 Critical (>$200 projected)
+- Status: ✅ On track / ⚠️ Elevated (>[WARNING THRESHOLD] projected) / 🚨 Critical (>[SPEND CEILING] projected)
 - Snapshot files to use: sum all agent costs from snapshots this month, divide by days elapsed, multiply by days in month
-- If projected total > $160, name the top spending agent as the lever to pull
+- If projected total > [WARNING THRESHOLD], name the top spending agent as the lever to pull
 
 ### 7. Top 3 recommendations
-> The only things Kate needs to act on right now.
+> The only things [OPERATOR] needs to act on right now.
 - Specific, actionable, prioritized
 - Include estimated impact where possible
 
